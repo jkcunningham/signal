@@ -1,5 +1,5 @@
 ## -*- texinfo -*-
-## @deftypefn {} {@var{ed,cm} =} pipeline_1 (@var{x},@var{hw},@var{edge_sign},@var{x_min})
+## @deftypefn {} {@var{ed,cm} =} edge_detector (@var{x},@var{hw},@var{edge_sign},@var{x_min})
 ## Detects 1-d edges (steps) beyond X_MIN in X using a convolution window of width WC.
 ## 
 ## Inputs:@*
